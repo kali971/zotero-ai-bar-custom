@@ -1,0 +1,6 @@
+# Never commit Zotero profile configuration or local backups.
+prefs.js
+*.env
+*.key
+*.secret
+*before-*.xpi

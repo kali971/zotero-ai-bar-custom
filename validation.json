@@ -1,0 +1,22 @@
+{
+  "package_version": "1.6.10-custom",
+  "source": "locally installed Zotero AI Bar XPI",
+  "xpi": "zotero-ai-bar-1.6.10-custom.xpi",
+  "xpi_sha256": "0799dab903aded87042e20e6fe04605f91bb5205d94610fdadfbeb273a229fa2",
+  "compaction_trigger_tokens": 256000,
+  "compaction_target_history_tokens": 32000,
+  "included_patch_scripts": [
+    "fix_zotero_composer_height.py",
+    "fix_zotero_translation_compat.py",
+    "fix_zotero_translation_relay.py",
+    "fix_zotero_compaction_budget.py"
+  ],
+  "credentials_included": false,
+  "profile_prefs_included": false,
+  "validation": {
+    "xpi_archive_integrity": "passed",
+    "compaction_offline_and_live_test": "passed before packaging",
+    "translation_relay_live_test": "passed before packaging",
+    "zotero_normal_restart": "completed before packaging"
+  }
+}
